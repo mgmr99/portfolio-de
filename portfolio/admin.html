@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Post to blog</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-logo">madhu<span>.</span>dev</a>
+    <span style="font-family:var(--font-mono);font-size:12px;color:var(--text-faint);">ADMIN</span>
+  </div>
+</nav>
+
+<div class="admin-wrap">
+  <h1>Post to the blog</h1>
+  <p>This page writes directly to your blog's storage (Cloudflare KV). Keep your admin token private — anyone with it can post or delete.</p>
+
+  <div class="field">
+    <label for="tokenInput">Admin token</label>
+    <input type="password" id="tokenInput" placeholder="Paste your ADMIN_TOKEN">
+    <small>Set once in this browser. Stored only in this tab's session, never sent anywhere except your own API.</small>
+  </div>
+
+  <form id="postForm">
+    <div class="field">
+      <label for="title">Title</label>
+      <input type="text" id="title" required placeholder="e.g. Why my Pentaho job kept hanging silently">
+    </div>
+    <div class="field">
+      <label for="excerpt">Excerpt (shown on the blog list)</label>
+      <input type="text" id="excerpt" required placeholder="One or two sentences summarizing the post">
+    </div>
+    <div class="field">
+      <label for="body">Body (HTML allowed — use &lt;h2&gt;, &lt;p&gt;, &lt;pre&gt;&lt;code&gt; etc.)</label>
+      <textarea id="body" required placeholder="&lt;p&gt;Write your post here...&lt;/p&gt;"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Publish post</button>
+    <p class="admin-status" id="status"></p>
+  </form>
+
+  <div class="post-list-admin">
+    <h2 style="font-family:var(--font-mono);font-size:14px;color:var(--text-faint);text-transform:uppercase;margin-bottom:12px;">Existing posts</h2>
+    <div id="existingPosts"><p style="color:var(--text-faint);font-family:var(--font-mono);font-size:13px;">Enter your token above to load posts.</p></div>
+  </div>
+</div>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

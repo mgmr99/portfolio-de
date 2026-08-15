@@ -1,0 +1,2 @@
+Add your resume as "resume.pdf" in this folder.
+The homepage and nav bar both link to assets/resume.pdf.

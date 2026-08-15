@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Madhu Ghimire</title>
+<meta name="description" content="Notes on data engineering, ETL pipelines, and automation from Madhu Ghimire.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-logo">madhu<span>.</span>dev</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="assets/resume.pdf" class="resume-link" target="_blank" rel="noopener">Resume ↗</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="padding: 64px 0 56px;">
+  <div class="wrap">
+    <p class="eyebrow">writing</p>
+    <h1 style="font-size:clamp(2rem,4vw,2.8rem);">Blog</h1>
+    <p class="hero-sub">Notes on pipelines, debugging sessions, and things I had to learn the hard way.</p>
+  </div>
+</header>
+
+<section style="border-bottom:none;">
+  <div class="wrap">
+    <div class="blog-grid" id="blogGrid">
+      <div class="empty-state">Loading posts…</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>© <span id="year"></span> Madhu Ghimire.</p>
+    <p><a href="admin.html">Admin</a></p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>

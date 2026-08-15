@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madhu Ghimire — Data Engineer</title>
+<meta name="description" content="Madhu Ghimire — Associate Data Engineer building ETL pipelines, automation systems, and data infrastructure across MySQL, PostgreSQL, Elasticsearch, Spark, Hadoop and AWS.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-logo">madhu<span>.</span>dev</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="assets/resume.pdf" class="resume-link" target="_blank" rel="noopener">Resume ↗</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">status: open to opportunities</p>
+      <h1>Building data pipelines that don't <span class="accent">fall over</span> at 2am.</h1>
+      <p class="hero-sub">
+        I'm <strong>Madhu Ghimire</strong>, an Associate Data Engineer at
+        <strong>Zakipoint Health</strong>, working remotely from Kathmandu, Nepal.
+        I design and run ETL pipelines across MySQL, PostgreSQL, Elasticsearch,
+        Spark and AWS — and automate the parts that used to need a human babysitting them.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>90%+</b><span>Processing time cut</span></div>
+        <div class="stat"><b>2</b><span>Automation systems shipped</span></div>
+        <div class="stat"><b>6+</b><span>Data platforms in daily use</span></div>
+      </div>
+    </div>
+
+    <div class="pipeline" aria-hidden="true">
+      <div class="pipeline-head">
+        <span>pipeline.yml</span>
+        <div class="dots"><span></span><span></span><span></span></div>
+      </div>
+      <div class="pipeline-stage active">EXTRACT — MySQL / PostgreSQL <span class="tag">source</span></div>
+      <div class="pipeline-arrow">↓</div>
+      <div class="pipeline-stage active">TRANSFORM — Spark / Pentaho PDI <span class="tag">compute</span></div>
+      <div class="pipeline-arrow">↓</div>
+      <div class="pipeline-stage active">LOAD — Elasticsearch / AWS <span class="tag">sink</span></div>
+      <div class="pipeline-output">
+        $ whoami<br>
+        &gt; Madhu Ghimire — Data Engineer<span class="cursor"></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-text">
+      <p class="eyebrow">about</p>
+      <p>
+        I work at the layer between raw data and the people who need to trust it.
+        At <strong>Zakipoint Health</strong>, a US healthcare data analytics company,
+        I build and maintain ETL pipelines that move and reshape client data safely —
+        healthcare data doesn't get a second chance to be wrong.
+      </p>
+      <p>
+        Most of my recent work has gone into two things: a Python-based database
+        sync tool built for large tables, and a daily automation pipeline that ties
+        together MySQL, PostgreSQL, and Pentaho jobs running in Docker — with a
+        dashboard so I can see what happened overnight instead of guessing.
+      </p>
+      <p>
+        Outside of pipelines, I like the other side of the brain too — logo and
+        brand design, and video editing. I think good engineering and good design
+        come from the same instinct: caring about the details nobody asked you to care about.
+      </p>
+    </div>
+    <div class="about-facts">
+      <div class="fact"><span class="k">Role</span><span class="v">Associate Data Engineer, Zakipoint Health</span></div>
+      <div class="fact"><span class="k">Location</span><span class="v">Kathmandu, Nepal (Remote)</span></div>
+      <div class="fact"><span class="k">Focus</span><span class="v">ETL pipelines, automation, healthcare data</span></div>
+      <div class="fact"><span class="k">Stack</span><span class="v">Python, SQL, Spark, Docker, AWS</span></div>
+      <div class="fact"><span class="k">Also into</span><span class="v">Brand/logo design, video editing</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">stack</p>
+      <h2>Tools I reach for daily</h2>
+      <p>The platforms and languages behind the pipelines above.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Databases</h3>
+        <div class="skill-tags">
+          <span>MySQL</span><span>PostgreSQL</span><span>Elasticsearch</span><span>SQLite</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Data & processing</h3>
+        <div class="skill-tags">
+          <span>Apache Spark</span><span>Hadoop</span><span>Pentaho / PDI</span><span>ETL design</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Languages & frameworks</h3>
+        <div class="skill-tags">
+          <span>Python</span><span>FastAPI</span><span>Flask</span><span>SQL</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Infrastructure</h3>
+        <div class="skill-tags">
+          <span>AWS EC2</span><span>Docker</span><span>Docker Compose</span><span>Cron / Scheduling</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Tooling</h3>
+        <div class="skill-tags">
+          <span>Git / GitHub</span><span>Slack API</span><span>Linux</span><span>ffmpeg</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Design</h3>
+        <div class="skill-tags">
+          <span>Logo / brand design</span><span>Video editing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">selected work</p>
+      <h2>Projects</h2>
+      <p>Systems I've built end-to-end, from the schema up to the Slack alert that tells me it worked.</p>
+    </div>
+    <div class="projects-list">
+
+      <article class="project-card">
+        <span class="project-num">01</span>
+        <div>
+          <h3>DB-Syncer</h3>
+          <span class="project-role">Database sync tool — Python</span>
+          <p>
+            A cross-database sync tool built for large tables, where a naive script would
+            either time out or eat all the RAM. Uses parallel processing to split work across
+            cores, SQLite-backed checkpointing so a sync can resume exactly where it left off
+            after a failure, and server-side cursor streaming to keep memory flat regardless
+            of table size. Ships with a FastAPI web UI, a Docker Compose test environment, and
+            a full unit test suite.
+          </p>
+          <div class="project-meta">
+            <span>Python</span><span>ProcessPoolExecutor</span><span>FastAPI</span>
+            <span>MySQL 5.x / 8.x</span><span>PostgreSQL</span><span>Docker</span>
+          </div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-num">02</span>
+        <div>
+          <h3>Daily Automation Pipeline</h3>
+          <span class="project-role">Production automation — Python + Docker + Pentaho</span>
+          <p>
+            An automation system running on AWS EC2 that pulls data from MySQL into PostgreSQL
+            every day, then triggers Pentaho (PDI) transformation jobs inside Docker containers.
+            Includes a Flask monitoring dashboard, Slack notifications on success or failure, and
+            a <code>--skip-phase1</code> flag so I can iterate on the transform stage without
+            re-running the full data pull. Debugged through real production issues — JVM heap
+            sizing, silent queue hangs, dynamic Docker volume paths, and OOM kills from unbuffered
+            MySQL cursors.
+          </p>
+          <div class="project-meta">
+            <span>Python</span><span>Pentaho / PDI</span><span>Docker</span>
+            <span>AWS EC2</span><span>Flask</span><span>Slack API</span><span>Cron</span>
+          </div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-num">03</span>
+        <div>
+          <h3>Legacy ETL → Spark/Hadoop Migration</h3>
+          <span class="project-role">Data platform migration — Zakipoint Health</span>
+          <p>
+            Migrated a legacy MySQL/Pentaho processing workflow to Apache Spark and Hadoop
+            running on AWS EC2, cutting processing time by more than 90%. This is the kind of
+            work that doesn't show up as a repo link — it shows up as a report that used to
+            take hours finishing before the team's coffee got cold.
+          </p>
+          <div class="project-meta">
+            <span>Apache Spark</span><span>Hadoop</span><span>AWS EC2</span><span>MySQL</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="blog-preview">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">writing</p>
+      <h2>From the blog</h2>
+      <p>Notes on pipelines, debugging sessions, and things I had to learn the hard way.</p>
+    </div>
+    <div class="blog-grid" id="blogPreviewGrid">
+      <div class="empty-state">Loading recent posts…</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="eyebrow">contact</p>
+      <h2 style="font-family:var(--font-display);font-size:2rem;margin-bottom:14px;">Let's talk data.</h2>
+      <p style="color:var(--text-dim);max-width:46ch;">
+        Open to new roles, freelance ETL/automation work, or just a conversation
+        about pipelines that broke in interesting ways. Based in Kathmandu, working remote.
+      </p>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:madhusudan2058@gmail.com">Email <span class="arrow">→</span> YOUR_EMAIL@example.com</a>
+      <a href="https://github.com/mgmr99" target="_blank" rel="noopener">GitHub <span class="arrow">→</span> @YOUR_GITHUB_USERNAME</a>
+      <a href="https://linkedin.com/in/madhughimire/" target="_blank" rel="noopener">LinkedIn <span class="arrow">→</span> /in/YOUR_LINKEDIN</a>
+      <a href="assets/resume.pdf" target="_blank" rel="noopener">Resume <span class="arrow">→</span> Download PDF</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>© <span id="year"></span> Madhu Ghimire. Built with vanilla HTML/CSS/JS, deployed on Cloudflare Pages.</p>
+    <p><a href="admin.html">Admin</a></p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
